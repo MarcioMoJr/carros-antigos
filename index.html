@@ -3,18 +3,57 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Top 5 carros antigos</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     </head>
-    <body style="background-color: rgba(0, 0, 0, 0.281);">
-        <h1>Garagem dos Clássicos </h1>
-        <h2>Clique em um desses links para saber mais sobre esses carros:</h2>
+    <body>
+        <p class="categoria">Coleção Especial</p>
+        <h1>Garagem dos <span>Clássicos</span></h1>
+        <p class="descricao">Descubra a história por trás de cada clássico</p>
 
-        <ul>
-            <li><a href="./paginas/brasilia.html">1. Brasilia</a></li>
-            <li><a href="./paginas/ferrari.html">2. Ferrari</a></li>
-            <li><a href="./paginas/fusca.html">3. Fusca</a></li>
-            <li><a href="./paginas/hotrod.html">4. HotRod</a></li>
-            <li><a href="./paginas/opala.html">5. Opala</a></li>
-        </ul>
-        
+        <div class="galeria">
+            <a href="./paginas/brasilia.html" class="card">
+                <img src="./img/brasilia.png" alt="Brasilia">
+                <div class="card-info">
+                    <p class="card-marca">Volkswagen &bull; 1973</p>
+                    <p class="card-titulo">Brasilia</p>
+                    <p class="card-ver">Ver história</p>
+                </div>
+            </a>
+            <a href="./paginas/ferrari.html" class="card">
+                <img src="./img/ferrari.png" alt="Ferrari">
+                <div class="card-info">
+                    <p class="card-marca">Ferrari &bull; 1963</p>
+                    <p class="card-titulo">Ferrari</p>
+                    <p class="card-ver">Ver história</p>
+                </div>
+            </a>
+            <a href="./paginas/fusca.html" class="card">
+                <img src="./img/fusca.png" alt="Fusca">
+                <div class="card-info">
+                    <p class="card-marca">Volkswagen &bull; 1975</p>
+                    <p class="card-titulo">Fusca</p>
+                    <p class="card-ver">Ver história</p>
+                </div>
+            </a>
+            <a href="./paginas/opala.html" class="card">
+                <img src="./img/opala.png" alt="Opala">
+                <div class="card-info">
+                    <p class="card-marca">Chevrolet &bull; 1975</p>
+                    <p class="card-titulo">Opala</p>
+                    <p class="card-ver">Ver história</p>
+                </div>
+            </a>
+            <a href="./paginas/hotrod.html" class="card">
+                <img src="./img/hotrod.png" alt="HotRod">
+                <div class="card-info">
+                    <p class="card-marca">Custom &bull; 1934</p>
+                    <p class="card-titulo">Hot Rod</p>
+                    <p class="card-ver">Ver história</p>
+                </div>
+            </a>
+        </div>
     </body>
 </html>

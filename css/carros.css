@@ -1,0 +1,104 @@
+body {
+    background-color: #0d0c0a;
+    font-family: 'Cormorant Garamond', serif;
+    color: #f0e8d0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.btn-nav {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #c8a84b;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.titulo-nav {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #7a7060;
+    text-transform: uppercase;
+}
+.banner {
+    position: relative;
+    height: 100vh;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.banner div {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+.banner div p {
+    font-style: italic;
+}
+
+.ficha {
+    display: flex;
+    padding: 40px 60px;
+    border-bottom: 1px solid #2a2620;
+    border-top: 1px solid #2a2620;
+    gap: 20px;
+    margin-top: 0;
+}
+
+.ficha p {
+    margin: 0
+}
+
+.ficha div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 6px;
+    border-right: 1px solid #2a2620;
+}    
+
+.ficha div:first-child {
+    padding-left: 0;
+}
+
+.ficha div:last-child {
+    border-right: none;
+}
+
+.ficha-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: #8a6f2e;
+    text-transform: uppercase;
+}
+
+.ficha-valor {
+    font-family: 'Bebas Neue' sans-serif;
+    font-size: 36px;
+    color: #f0e8d0;
+}
+
+.ficha-desc {
+    font-size: 13px;
+    color: #7a7060;
+}
