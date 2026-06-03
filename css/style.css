@@ -20,7 +20,7 @@ h1 span {
 
 .categoria {
     font-family: 'Space Mono', monospace;
-    font-size: 11px;
+    font-size: 18px;
     letter-spacing: 4px;
     color: #c8a84b;
     text-transform: uppercase;
@@ -28,7 +28,7 @@ h1 span {
 }
 
 .descricao {
-    font-size: 18px;
+    font-size: 22px;
     font-style: italic;
     color: #7a7060;
     margin-top: 20px;
@@ -76,7 +76,7 @@ h1 span {
 
 .card-marca {
     font-family: 'Space Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 3px;
     color: #c8a84b;
     text-transform: uppercase;
@@ -98,7 +98,7 @@ h1 span {
 }
 
 .card-ver {
-    font-size: 12px;
+    font-size: 22px;
     font-style: italic;
     color: #7a7060;
     margin-top: 6px;
