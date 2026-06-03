@@ -1,0 +1,18 @@
+
+.video {
+    padding: 0 60px 60px;
+}
+
+.video p {
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #c8a84b;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.video video {
+    width: 100%;
+    border: 1px solid #2a2620;
+}

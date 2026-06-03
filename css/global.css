@@ -1,0 +1,28 @@
+
+body {
+    background-color: #0d0c0a;
+    font-family: 'Cormorant Garamond', serif;
+    color: #f0e8d0;
+    margin: 0;
+}
+
+.pagina-index {
+    padding: 48px;
+}
+
+.pagina-carro {
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 120px;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    color: #f0e8d0;
+}
+
+h1 span {
+    color: #c8a84b;
+}
+

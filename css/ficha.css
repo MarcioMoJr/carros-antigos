@@ -1,0 +1,39 @@
+
+.ficha {
+    display: flex;
+    padding: 40px 60px;
+    border-bottom: 1px solid #2a2620;
+    border-top: 1px solid #2a2620;
+    gap: 20px;
+}
+
+.ficha p {
+    margin: 0;
+}
+
+.ficha div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 6px;
+    border-right: 1px solid #2a2620;
+}
+
+.ficha-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #8a6f2e;
+    text-transform: uppercase;
+}
+
+.ficha-valor {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    color: #f0e8d0;
+}
+
+.ficha-desc {
+    font-size: 20px;
+    color: #7a7060;
+}

@@ -1,0 +1,52 @@
+
+.especificacoes {
+    padding: 0 60px 60px;
+}
+
+.especificacoes > p {
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #c8a84b;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.grade div {
+    flex: 1 1 30%;
+    background: #1a1814;
+    border: 1px solid #2a2620;
+    padding: 28px;
+}
+
+.grade div p {
+    margin: 0;
+}
+
+.grade div p:first-child {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #8a6f2e;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.grade div p:nth-child(2) {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: #f0e8d0;
+}
+
+.grade div p:last-child {
+    font-size: 20px;
+    color: #7a7060;
+    margin-top: 6px;
+    font-style: italic;
+}

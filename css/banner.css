@@ -1,0 +1,32 @@
+
+.banner {
+    position: relative;
+    height: 100vh;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.banner div {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.banner p {
+    font-style: italic;
+    margin: 0;
+    font-size: 20px;
+}
+
+.banner h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 0;
+    transform: scaleY(1.6);
+    transform-origin: bottom;
+}

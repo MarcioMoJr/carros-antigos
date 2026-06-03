@@ -1,0 +1,37 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.btn-nav {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #c8a84b;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, background 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.btn-nav:hover {
+    border-color: #c8a84b;
+    background: rgba(200, 168, 75, 0.08);
+    letter-spacing: 5px;
+}
+
+.titulo-nav {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
